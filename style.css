@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+div { 
+margin:0;
+border:0;
+padding:0;
+}
+/* fon */
+body {  background-image:url(images/background.jpg)
+}
+/*shapka*/
+.header { 
+	color: whitesmoke;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+	text-align:center;
+}
+/*liva kolonka*/
+.col-left {
+	position: relative;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 9px;
+	color: #333;
+	top: 30px;
+	width: 15%;
+	height: 500px;
+	word-wrap: break-word;
+	text-align: justify;
+	float: left;
+}
+/*blok z globusom */
+.col-cent {
+	position: relative;
+	margin: 20px auto 15px auto;
+	width: 70%;
+	height: 680px;
+	float: left;
+}
+/*prava kolonka*/
+.col-right{
+	position: relative;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 9px;
+	color: #333;
+	width: 15%;
+	height: 500px;
+	float: right;
+	top: 30px;
+	word-wrap: break-word;
+	text-align: justify;
+}
+.textLeft{
+	text-align:left;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 9px;
+	color: #333;
+}
+
+
+.nahr {
+	text-align:left;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #FF0000;
+}
+
+/*podval*/
+.footer {
+clear: both;
+}
+
+.opt {
+	color: #C99;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	float:left;
+	text-align:center;
+	width:120px;
+}
+
+.omodelu{
+	color: #4B0082;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	float:left;
+	text-align:left;
+	width:200px;
+}
+.padding10 {
+padding:0 10px;
+}
+.clbc1 {
+	color: #609;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	text-align:center;
+}
+#map3d{
+	border: 5px solid #FFF;
+	height: 680px;
+}
+
+#progress-container {
+	margin: 0 auto;
+	width: 180px; 
+	height: 7px; 
+	border: 1px solid #ccc;
+}
+#progress-bar { 
+	width: 0px;
+	height: 7px;
+}
+
+.links {
+	text-align:left;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 9px;
+	color: #4B0082;
+}
+
+.other li{
+		margin-left:5px;
+}
